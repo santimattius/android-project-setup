@@ -11,7 +11,7 @@ class AndroidApplicationConventionPlugin : Plugin<Project> {
             with(pluginManager) {
                 apply("com.android.application")
                 apply("org.jetbrains.kotlin.android")
-                apply("io.github.santimattius.android.lint")
+                apply("com.santimattius.android.lint")
                 apply("com.dropbox.dependency-guard")
             }
 

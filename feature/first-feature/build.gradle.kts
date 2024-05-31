@@ -1,6 +1,6 @@
 plugins {
-    id("io.github.santimattius.android.feature")
-    id("io.github.santimattius.android.library.compose")
+    id("com.santimattius.android.feature")
+    id("com.santimattius.android.library.compose")
 }
 
 android {

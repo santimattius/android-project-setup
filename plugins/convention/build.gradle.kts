@@ -6,7 +6,7 @@ plugins {
     alias(libs.plugins.gradle.publish)
 }
 
-val groupIdentifier = "io.github.santimattius.android"
+val groupIdentifier = "com.santimattius.android"
 val siteUrl = "https://github.com/santimattius/android-project-setup"
 
 group = "${groupIdentifier}"

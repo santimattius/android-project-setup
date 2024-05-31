@@ -1,6 +1,6 @@
 plugins {
-    id 'io.github.santimattius.android.application'
-    id 'io.github.santimattius.android.application.compose'
+    id 'com.santimattius.android.application'
+    id 'com.santimattius.android.application.compose'
 }
 
 android {
