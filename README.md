@@ -1,5 +1,5 @@
 # Android Convention Plugins
-Shared your gradle configurations using plugins and Version Catalog
+Shared your gradle configurations using plugins and Version Catalog. Fork: https://github.com/android/nowinandroid/tree/main/build-logic 
 
 ## Keep your configuration consistent
 
