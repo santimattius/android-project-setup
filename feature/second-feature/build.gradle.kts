@@ -1,6 +1,6 @@
 plugins {
-    id("com.santimattius.plugins.feature")
-    id("com.santimattius.plugins.library.compose")
+    id("io.github.santimattius.android.feature")
+    id("io.github.santimattius.android.library.compose")
 }
 
 android {
@@ -9,8 +9,7 @@ android {
 }
 
 dependencies{
-    implementation(libs.core.ktx)
-    implementation(libs.androidx.lifecycle.runtime.ktx)
+    implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.compose.runtime)
@@ -18,5 +17,4 @@ dependencies{
     implementation(libs.androidx.compose.runtime.tracing)
     implementation(libs.androidx.compose.material3.windowSizeClass)
     implementation(project(mapOf("path" to ":core:ui")))
-    androidTestImplementation(libs.bundles.android.testing)
 }

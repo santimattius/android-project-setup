@@ -13,8 +13,8 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Android Custom Plugins"
-include ':app'
-include ':core:ui'
-include ':feature:first-feature'
-include ':feature:second-feature'
+rootProject.name = "android-project-setup"
+include(":app")
+include(":core:ui")
+include(":feature:first-feature")
+include(":feature:second-feature")
