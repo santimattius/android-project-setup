@@ -10,7 +10,7 @@ val groupIdentifier = "io.github.santimattius.android"
 val siteUrl = "https://github.com/santimattius/android-project-setup"
 
 group = "${groupIdentifier}"
-version = "0.2"
+version = "1.0.0"
 
 // Configure the build-logic plugins to target JDK 17
 // This matches the JDK used to build the project, and is not related to what is running on device.

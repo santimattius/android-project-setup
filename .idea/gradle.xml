@@ -10,6 +10,7 @@
               <build path="$PROJECT_DIR$/plugins" name="plugins">
                 <projects>
                   <project path="$PROJECT_DIR$/plugins" />
+                  <project path="$PROJECT_DIR$/plugins/convention" />
                 </projects>
               </build>
             </builds>
@@ -27,6 +28,7 @@
             <option value="$PROJECT_DIR$/feature/first-feature" />
             <option value="$PROJECT_DIR$/feature/second-feature" />
             <option value="$PROJECT_DIR$/plugins" />
+            <option value="$PROJECT_DIR$/plugins/convention" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />
