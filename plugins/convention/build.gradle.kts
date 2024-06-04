@@ -45,7 +45,7 @@ tasks {
 }
 
 gradlePlugin {
-    website = "${siteUrl}"
+    website = "https://github.com/santimattius/android-project-setup/tree/main/plugins"
     vcsUrl = "${siteUrl}.git"
 
     plugins {
